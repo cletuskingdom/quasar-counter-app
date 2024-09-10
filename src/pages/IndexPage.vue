@@ -27,6 +27,7 @@
             <div class="col text-center">
                 <q-btn
                     @click="increaseCounter"
+                    v-touch-repeat:300:300:300:300:50.mouse="increaseCounter"
                     round 
                     icon="add"
                     size="xl"
